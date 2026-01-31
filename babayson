@@ -1,0 +1,29 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        string fullname = "John Ferrari L. Babayson";
+        string stdId = "24961377";
+        string nickname = "Yan";
+        string gender = "male";
+        int yearlvl = 2; 
+        string homeloc = "City of Naga";
+        string program = "Computer Science";
+        long mobilenum = 9948906897;
+        string email = "jayfun072002@gmail.com"; 
+        
+        Console.WriteLine("Student Information:");
+        Console.WriteLine();
+        Console.WriteLine("Student ID: " + stdId);
+        Console.WriteLine("Full Name: " + fullname);
+        Console.WriteLine("Nickname: " + nickname);
+        Console.WriteLine("Gender: " + gender);
+        Console.WriteLine("Year Level: " + yearlvl);
+        Console.WriteLine("Home Location: " + homeloc);
+        Console.WriteLine("Program: " + program);
+        Console.WriteLine("Mobile Number: " + mobilenum);
+        Console.WriteLine("Email: " + email);
+    }
+}
